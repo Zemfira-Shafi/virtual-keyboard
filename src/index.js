@@ -1,0 +1,11 @@
+let title = document.createElement("h1");
+title.innerHTML = "Virtual Keyboard";
+document.body.append(title);
+let textarea = document.createElement("textarea");
+textarea.className = "textarea";
+textarea.innerHTML = "";
+document.body.append(textarea);
+let keyboard = document.createElement("div");
+keyboard.classList = "keyboard";
+keyboard.innerHTML = "";
+document.body.append(keyboard);

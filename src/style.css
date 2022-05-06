@@ -1,1 +1,54 @@
-/* No CSS *//*# sourceMappingURL=style.css.map */
+html {
+  font-size: 10px;
+  line-height: 1.15;
+  -webkit-text-size-adjust: 100%;
+}
+
+body {
+  font-family: "Georgia", "Arial", sans-serif;
+  font-size: 1.6rem;
+  margin: 0;
+  padding: 0;
+}
+
+p,
+span {
+  margin: 0;
+  padding: 0;
+}
+
+* {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+textarea {
+  overflow: auto;
+  font-family: inherit;
+  font-size: 100%;
+  line-height: 1.15;
+  margin: 0;
+}
+
+h1 {
+  font-size: 25px;
+  text-align: center;
+  color: #daa86c;
+  font-weight: 400;
+}
+
+.textarea {
+  display: block;
+  width: 700px;
+  height: 200px;
+  margin: 10px auto;
+  padding: 5px;
+}
+
+.keyboard {
+  width: 700px;
+  margin: 0 auto;
+  background: #5d5c5c;
+  height: 200px;
+}
+/*# sourceMappingURL=style.css.map */

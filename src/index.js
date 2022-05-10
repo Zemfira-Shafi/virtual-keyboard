@@ -1,4 +1,4 @@
-import keysObj from "./keys.js";
+// import keysObj from "./keys";
 
 let title = document.createElement("h1");
 title.innerHTML = "Virtual Keyboard";

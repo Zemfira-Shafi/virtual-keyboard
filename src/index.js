@@ -6,6 +6,11 @@ textarea.className = "textarea";
 textarea.innerHTML = "";
 document.body.append(textarea);
 let keyboard = document.createElement("div");
-keyboard.classList = "keyboard";
+keyboard.className = "keyboard";
 keyboard.innerHTML = "";
 document.body.append(keyboard);
+for (let i = 0; i < 5; i++) {
+  let keyRow = document.createElement("div");
+  keyRow.className = "key";
+  keyboard.append(keyRow);
+}
